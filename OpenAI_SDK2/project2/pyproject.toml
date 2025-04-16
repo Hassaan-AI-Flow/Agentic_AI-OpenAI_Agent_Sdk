@@ -1,0 +1,22 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hassan", email = "hr8581492@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.4.400",
+    "openai-agents>=0.0.9",
+]
+
+[project.scripts]
+project2 = "project2:main"
+project = "project2.simple_agent:agent"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
