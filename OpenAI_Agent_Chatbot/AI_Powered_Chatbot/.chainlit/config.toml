@@ -1,0 +1,54 @@
+[project]
+enable_telemetry = true
+user_env = []
+session_timeout = 3600
+user_session_timeout = 1296000
+cache = false
+allow_origins = ["*"]
+
+[features]
+unsafe_allow_html = false
+latex = false
+user_message_autoscroll = true
+auto_tag_thread = true
+edit_message = true
+
+[features.spontaneous_file_upload]
+enabled = true
+accept = ["*/*"]
+max_files = 20
+max_size_mb = 500
+
+[features.audio]
+sample_rate = 24000
+
+[features.mcp.sse]
+enabled = true
+
+[features.mcp.stdio]
+enabled = true
+allowed_executables = [ "npx", "uvx" ]
+
+[UI]
+name = "🤖 Gemini AI Assistant"
+default_theme = "dark"
+layout = "wide"
+default_sidebar_state = "open"
+cot = "tool_call"  # clean tool call view
+
+# Optional UI polish
+description = "An intelligent, friendly, and responsive Gemini-powered assistant."
+custom_meta_image_url = "https://i.imgur.com/AfFp7pu.png"
+
+# Optional header links for branding/help
+[[UI.header_links]]
+name = "GitHub"
+display_name = "View on GitHub"
+icon_url = "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+url = "https://github.com/your-repo-link"
+
+# You can also uncomment and add a CSS file here if needed:
+# custom_css = "/public/style.css"
+
+[meta]
+generated_by = "2.5.5"
