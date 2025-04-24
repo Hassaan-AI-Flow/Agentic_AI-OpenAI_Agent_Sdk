@@ -30,7 +30,7 @@ Feel free to fork, open issues, or submit pull requests to help improve **GEMINI
 
 ---
 
-Made with ❤️ by [Hassaan](https://www.linkedin.com/in/your-link)  
+Made with ❤️ by [Hassaan](https://www.linkedin.com/in/hassan-ashraf-468a7333b/)  
 #AI #Chainlit #Gemini #Python #OpenSource #StudentDeveloper
 
 * *Create a simple chatbot Agent with `OpenAI Sdk`✨.*
