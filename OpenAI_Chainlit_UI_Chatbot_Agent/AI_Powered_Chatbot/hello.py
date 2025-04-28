@@ -8,8 +8,7 @@ from openai.types.responses import ResponseTextDeltaEvent
 import chainlit as cl  # 📌 Chainlit for UI
 from chainlit.server import app as chainlit_app  # Chainlit server
 
-import random  # 📌 For randomized greetings
-
+import random  
 load_dotenv()
 set_tracing_disabled(True)
 

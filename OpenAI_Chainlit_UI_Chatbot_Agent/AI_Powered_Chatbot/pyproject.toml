@@ -10,4 +10,4 @@ dependencies = [
 ]
 
 [project.scripts]
-ai-powered-chatbot= "hello:main"
+agent = "AI_Powered_Chatbot.hello:main"
