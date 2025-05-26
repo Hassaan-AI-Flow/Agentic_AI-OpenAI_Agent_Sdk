@@ -3,7 +3,7 @@ OpenAi Agents SDK
 
 ## Table of Contents
 
-- [01_Simple_Agent](#simple_agent)
+- [01_Simple_Agent](#simple-agent)
 - [02_Openrouter](#lecture-overview)
 - [03_litellm_openai_agent](#project-structure)
 - [04_sync_async_streamed_agent](#prerequisites)
@@ -16,7 +16,7 @@ OpenAi Agents SDK
 - [Contact](#contact)
 
 ---
-# simple_agent 🤖
+## simple_agent 🤖
 
 **simple_agent** is a lightweight AI agent powered by Google's Gemini 2.0 Flash model, integrated using the OpenAI-compatible Agents SDK. This assistant is designed to provide quick, reliable answers to user queries with minimal setup. Using environment variables for API security and a synchronous runner for simplicity, it serves as an ideal starting point for experimenting with agent-based architectures. 🌍📡
 
