@@ -21,7 +21,7 @@ OpenAi Agents SDK
 
 For questions or further discussion:
 - **Lecturer:** Hassan Ashraf
-- **GitHub:** [Hassan-AI-Flow]([https://github.com/Uzair-DeVops](https://github.com/Hassan-AI-Flow))
+- **GitHub:** [Hassan-AI-Flow](https://github.com/Hassan-AI-Flow)
 - **Linkdin:** [Hassan Ashraf](https://www.linkedin.com/in/hassan-ashraf-468a7333b/)
 
 ---
