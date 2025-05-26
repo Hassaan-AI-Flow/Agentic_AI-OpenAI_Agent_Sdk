@@ -1,0 +1,21 @@
+[project]
+name = "ai-flow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hassan", email = "hr8581492@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.13",
+    "streamlit>=1.44.1",
+]
+
+[project.scripts]
+ai-flow = "ai_flow:main"
+agent = "ai_flow.Agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
