@@ -25,6 +25,18 @@ The agent connects to the Gemini API through a compatible client and wraps the m
 Whether you're building a chatbot, personal AI tool, or educational assistant, **simple_agent** gives you a solid foundation to build on. Customize instructions, plug in memory or tools, and expand functionality as you go. Happy experimenting! ⚙️🧠
 
 ---
+## Openrouter_agent 🤖✨
+
+**Openrouter_agent** is a minimal yet powerful AI assistant built using the Agents SDK and OpenRouter’s free-tier access to the DeepSeek Chat v3 model. It offers a quick and efficient way to interact with a conversational model using synchronous execution for simplicity. 🌐💬
+
+This agent uses `AsyncOpenAI` to connect with the OpenRouter API and wraps the `deepseek-chat-v3-0324:free` model in a clean, modular structure. With environment variables for secure key handling and tracing turned off for lightweight performance, it’s perfect for personal projects or experimentation.
+
+simple_agent responds to natural language input with friendly, AI-generated replies—ideal for chatbot development, question answering systems, or just exploring LLM capabilities. Whether you're building your first assistant or extending a larger system, this agent gives you a simple foundation to start from. 🚀🤝
+
+Feel free to expand it with tools, memory, or advanced flows as your project grows!
+
+
+---
 
 ## Contact
 
