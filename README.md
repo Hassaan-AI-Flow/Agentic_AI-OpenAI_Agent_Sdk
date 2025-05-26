@@ -9,10 +9,19 @@ OpenAi Agents SDK
 - [04_sync_async_streamed_agent](#prerequisites)
 - [05_chainlit_agent](#installation--setup)
 - [06_global_level_agent](#usage)
-- [Key Concepts Covered](#key-concepts-covered)
-- [Further Improvements & Roadmap](#further-improvements--roadmap)
+- [07_Runconfig_level_agent](#key-concepts-covered)
+- [08_Quickbot_memory_agent](#further-improvements--roadmap)
 - [Lecture Video](#lecture-video)
-- [License](#license)
+- [09_guardrails_agent](#license)
 - [Contact](#contact)
+
+---
+
+## Contact
+
+For questions or further discussion:
+- **Lecturer:** Hassan Ashraf
+- **GitHub:** [Hassan-AI-Flow]([https://github.com/Uzair-DeVops](https://github.com/Hassan-AI-Flow))
+- **Linkdin:** [Hassan Ashraf](https://www.linkedin.com/in/hassan-ashraf-468a7333b/)
 
 ---
