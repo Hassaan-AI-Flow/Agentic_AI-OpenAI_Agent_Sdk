@@ -3,7 +3,7 @@ OpenAi Agents SDK
 
 ## Table of Contents
 
-- [01_Simple_Agent](#simple-agent)
+- [01_Simple_Agent](#simple_agent-)
 - [02_Openrouter](#lecture-overview)
 - [03_litellm_openai_agent](#project-structure)
 - [04_sync_async_streamed_agent](#prerequisites)
