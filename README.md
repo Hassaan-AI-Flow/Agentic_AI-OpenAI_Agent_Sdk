@@ -4,10 +4,10 @@ OpenAi Agents SDK
 ## Table of Contents
 
 - [01_Simple_Agent](#simple_agent-)
-- [02_Openrouter](#lecture-overview)
-- [03_litellm_openai_agent](#project-structure)
-- [04_sync_async_streamed_agent](#prerequisites)
-- [05_chainlit_agent](#installation--setup)
+- [02_Openrouter](#openrouter_agent-)
+- [03_litellm_openai_agent](#litellm_openai_agent-)
+- [04_sync_async_streamed_agent](#sync_async_streamed_agent-)
+- [05_chainlit_agent](#chainlit_agent-)
 - [06_global_level_agent](#usage)
 - [07_Runconfig_level_agent](#key-concepts-covered)
 - [08_Quickbot_memory_agent](#further-improvements--roadmap)
@@ -35,6 +35,38 @@ simple_agent responds to natural language input with friendly, AI-generated repl
 
 Feel free to expand it with tools, memory, or advanced flows as your project grows!
 
+---
+# litellm_openai_agent 🧠⚡
+
+**litellm_openai_agent** is a smart, lightweight AI assistant powered by Google's Gemini 2.0 Flash model via the LiteLLM integration. Built using the flexible Agents SDK, this assistant is designed to handle a wide range of user queries—from general knowledge to expert advice—with quick, human-like responses. 🌍🤖
+
+By leveraging `LitellmModel`, this agent connects efficiently to Gemini using API keys stored securely with environment variables. Tracing is disabled for a cleaner and faster experience, making this setup ideal for testing, prototyping, or educational purposes. 🔐🚀
+
+The agent is initialized with clear instructions, ensuring it can assist users across various scenarios with expertise and clarity. Whether you're building a chatbot, personal assistant, or expanding a larger LLM pipeline, **litellm_openai_agent** provides a solid and adaptable starting point. Feel free to add tools, memory, or multi-turn conversation logic to evolve it further! 💬🛠️
+
+---
+# sync_async_streamed_agent ⌨️🧠
+
+**sync_async_streamed_agent** is a streaming AI assistant designed for responsive and real-time interactions using the Gemini 2.0 Flash model through an OpenAI-compatible API. This agent is built on the Agents SDK and leverages asynchronous event streaming to deliver smooth, dynamic responses as the model generates them. ⚡🔊
+
+The assistant emphasizes clear, polite, and accurate communication, making it suitable for real-world applications like customer support, tutoring, or general-purpose Q&A. Environment variables keep your API keys secure, while the clean async structure ensures modern, non-blocking performance. 🔐💬
+
+By integrating `Runner.run_streamed` and listening to delta events, **litellm_openai_agent** offers a chat experience that feels live and engaging. It’s perfect for developers looking to build interactive command-line tools or prototypes for conversational AI projects. Try it out and see your assistant speak in real time! 🚀🎙️
+
+---
+# chainlit_agent 🤖✨
+
+**chainlit_agent** is a conversational AI agent built using Chainlit and Google's Gemini model via OpenAI-compatible API. This agent delivers friendly, helpful, and engaging responses with a professional tone, making interactions smooth and pleasant.  
+
+It supports real-time streaming of replies for a natural "typing" effect and enriches conversations by adding relevant emojis based on keywords, making chats more expressive and fun!  
+
+The agent maintains conversation history to provide context-aware answers, ensuring accurate and concise responses. It's designed with user experience as a priority—always polite, clear, and respectful.  
+
+This project showcases seamless integration of modern generative AI with a custom UI, perfect for chatbots or virtual assistants that want to add a human touch.  
+
+Enjoy chatting with **litellm_openai_agent**! 💬😊🚀
+
+---
 
 ---
 
