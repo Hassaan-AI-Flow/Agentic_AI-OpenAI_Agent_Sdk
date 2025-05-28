@@ -11,13 +11,12 @@ OpenAi Agents SDK
 - [06_global_level_agent](#usage)
 - [07_Runconfig_level_agent](#key-concepts-covered)
 - [08_Quickbot_memory_agent](#further-improvements--roadmap)
-- [Lecture Video](#lecture-video)
 - [09_guardrails_agent](#license)
-- [10_Handoffs_Triage_Agent](Handoffs_Triage_Agent-)
+- [10_Handoffs_Triage_Agent](#handoffs-triage-agent-)
 - [Contact](#contact)
 
 ---
-## simple_agent 🤖
+# simple_agent 🤖
 
 **simple_agent** is a lightweight AI agent powered by Google's Gemini 2.0 Flash model, integrated using the OpenAI-compatible Agents SDK. This assistant is designed to provide quick, reliable answers to user queries with minimal setup. Using environment variables for API security and a synchronous runner for simplicity, it serves as an ideal starting point for experimenting with agent-based architectures. 🌍📡
 
@@ -26,7 +25,7 @@ The agent connects to the Gemini API through a compatible client and wraps the m
 Whether you're building a chatbot, personal AI tool, or educational assistant, **simple_agent** gives you a solid foundation to build on. Customize instructions, plug in memory or tools, and expand functionality as you go. Happy experimenting! ⚙️🧠
 
 ---
-## Openrouter_agent 🤖✨
+# Openrouter_agent 🤖✨
 
 **Openrouter_agent** is a minimal yet powerful AI assistant built using the Agents SDK and OpenRouter’s free-tier access to the DeepSeek Chat v3 model. It offers a quick and efficient way to interact with a conversational model using synchronous execution for simplicity. 🌐💬
 
@@ -117,13 +116,11 @@ The system is built with a modular, agent-based architecture:
    uv run chainlit run handsoff.py
 ---
 
----
-
 ## Contact
 
 For questions or further discussion:
 - **Lecturer:** Hassan Ashraf
-- **GitHub:** [Hassan-AI-Flow](https://github.com/Hassan-AI-Flow)
+- **GitHub:** [Hassan-AI-Flow](https://github.com/Hassaan-AI-Flow)
 - **Linkdin:** [Hassan Ashraf](https://www.linkedin.com/in/hassan-ashraf-468a7333b/)
 
 ---
