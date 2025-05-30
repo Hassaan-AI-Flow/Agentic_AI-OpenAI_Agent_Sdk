@@ -8,7 +8,7 @@ OpenAi Agents SDK
 - [03_litellm_openai_agent](#litellm_openai_agent-)
 - [04_sync_async_streamed_agent](#sync_async_streamed_agent-)
 - [05_chainlit_agent](#chainlit_agent-)
-- [06_global_level_agent](#usage)
+- [06_global_level_agent](#global-assistant-chatbot-)
 - [07_Runconfig_level_agent](#key-concepts-covered)
 - [08_Quickbot_memory_agent](#further-improvements--roadmap)
 - [09_guardrails_agent](#license)
@@ -65,6 +65,43 @@ The agent maintains conversation history to provide context-aware answers, ensur
 This project showcases seamless integration of modern generative AI with a custom UI, perfect for chatbots or virtual assistants that want to add a human touch.  
 
 Enjoy chatting with **litellm_openai_agent**! 💬😊🚀
+
+---
+
+# 🌍 Global Assistant Chatbot 🤖
+
+A smart, scalable **AI Assistant Chatbot** powered by **OpenRouter** and built using the **OpenAI SDK**. Designed with a global vision, this assistant can be extended with tools, context memory, and multilingual capabilities — aiming to serve diverse users across the world.
+
+---
+
+## 🚀 Features
+
+- 💬 Natural conversations using OpenRouter-powered models
+- 🌍 Designed for global use cases and scalability
+- 🧠 Context-aware interaction (in-memory or via agents)
+- 🧩 Pluggable tools (e.g., weather, news, calculator, custom APIs)
+- 🔐 Secure environment setup with `.env` variables
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python 3.9+
+- **LLM SDK**: `openai` (with OpenRouter endpoint)
+- **Optional Frameworks**: Streamlit / FastAPI / LangChain
+- **Utilities**: `dotenv`, `requests`, `toolz`, etc.
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/global-assistant-chatbot.git
+cd global-assistant-chatbot
+
+
 
 ---
 # Handoffs Triage Agent 🤖
