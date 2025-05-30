@@ -8,7 +8,7 @@ OpenAi Agents SDK
 - [03_litellm_openai_agent](#litellm_openai_agent-)
 - [04_sync_async_streamed_agent](#sync_async_streamed_agent-)
 - [05_chainlit_agent](#chainlit_agent-)
-- [06_global_level_agent](#global-assistant-chatbot-)
+- [06_global_level_agent](#-global-assistant-chatbot-)
 - [07_Runconfig_level_agent](#key-concepts-covered)
 - [08_Quickbot_memory_agent](#further-improvements--roadmap)
 - [09_guardrails_agent](#license)
@@ -100,8 +100,7 @@ A smart, scalable **AI Assistant Chatbot** powered by **OpenRouter** and built u
 ```bash
 git clone https://github.com/yourusername/global-assistant-chatbot.git
 cd global-assistant-chatbot
-
-
+```
 
 ---
 # Handoffs Triage Agent 🤖
