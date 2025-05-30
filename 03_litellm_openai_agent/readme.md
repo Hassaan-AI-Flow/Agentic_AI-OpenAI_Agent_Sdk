@@ -1,3 +1,3 @@
 ---
-`**Project is completed.**`
+**Project is completed.**
 ---
