@@ -1,5 +1,3 @@
----
-
 # chainlit_agent 🤖✨
 
 **chainlit_agent** is a conversational AI agent built using Chainlit and Google's Gemini model via OpenAI-compatible API. This agent delivers friendly, helpful, and engaging responses with a professional tone, making interactions smooth and pleasant.  
@@ -11,5 +9,3 @@ The agent maintains conversation history to provide context-aware answers, ensur
 This project showcases seamless integration of modern generative AI with a custom UI, perfect for chatbots or virtual assistants that want to add a human touch.  
 
 Enjoy chatting with **litellm_openai_agent**! 💬😊🚀
-
----
